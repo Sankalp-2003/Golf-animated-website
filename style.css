@@ -384,3 +384,44 @@ video{
   height: 150px;
   width: 150px;
 }
+.slayer{
+  
+}
+
+@media (max-width: 600px) {
+  nav{
+    display: none;
+  }
+  nav img{
+    z-index: 1;
+  }
+  .cursor{
+    display: none;
+  }
+  .cursor-blur{
+    display: none;
+  }
+  video{
+    display: none;
+  }
+
+ .main{
+  display: none;
+ }
+ .slayer{
+  height: 100vh;
+  width: 100vw;
+  background: lightslategrey;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slayer h2{
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+
+}
